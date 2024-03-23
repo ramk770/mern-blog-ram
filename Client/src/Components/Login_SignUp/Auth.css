@@ -1,0 +1,180 @@
+
+#SignupDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    width: 70%;
+    margin: auto;
+    padding: 20px 0px;
+    margin-top: 3%;
+    /* background-color: rgba(103, 103, 185, 0.993); */
+    /* background-color: cadetblue; */
+    background-color: black;
+}
+
+#SignupDiv h1{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#SignupDiv form{
+    /* width: 400px; */
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    color: black;
+    padding: 50px 10px;
+    border: 1px solid black;
+    border-radius: 9px;
+}
+#SignupDiv form label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#SignupDiv form label input{
+    height: 40px;
+    /* width: 220px; */
+    border: 1px solid black;
+    opacity: 0.8;
+    border-radius: 8px;
+    padding: 0px 5px;
+    width: 90%;
+    margin: auto;
+}
+#submitBtn{
+    background-color: rgb(54, 36, 36);
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+#submitBtn:hover{
+  background-color: rgb(88, 86, 86);
+}
+#SignupDiv h1, .LoginMainDiv h1{
+    font-size: 20px;
+}
+/* Login Component CSS */
+
+.container::before {
+    content: '';
+    /* background: url("https://www.shutterstock.com/image-vector/vector-seamless-pattern-blogging-social-600w-434264536.jpg") no-repeat center center/cover; */
+    /* background: url("https://newjerseycog.org/wp-content/uploads/2014/08/Blog-Web-Header-Background.jpg") no-repeat center center/cover; */
+    /* background: url("https://mcdn.wallpapersafari.com/medium/9/57/PdJiN3.jpg") no-repeat center center/cover; */
+    /* background: url("https://mcdn.wallpapersafari.com/medium/18/3/voZ23G.jpg") no-repeat center center/cover; */
+    /* background: url("https://mcdn.wallpapersafari.com/medium/41/98/bTovEQ.jpg") no-repeat center center/cover; */
+    /* background: url("https://mcdn.wallpapersafari.com/medium/88/13/1RiXrN.jpg") no-repeat center center/cover; */
+    background: url("../../Assets/auth_background.jpg") no-repeat center center/cover;
+    background: url("https://mcdn.wallpapersafari.com/medium/67/23/AcFZpg.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.8;
+  }
+.LoginMainDiv{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 60%;
+    margin: auto;
+    margin-top: 7%;
+    background-color: cadetblue;
+    padding: 5% 0;
+    padding-top: 0;
+}
+.LoginMainDiv h1{
+    font-size: x-large;
+}
+
+.spinner{
+    margin-top: 2%;
+    height: 30px;
+}
+#LoginMainDiv h1{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+#LoginForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    row-gap: 5px;
+    /* padding: 6% 0; */
+}
+
+.Input{
+    width: 100%;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+
+.LoginMainDiv button{
+    background-color: rgb(54, 36, 36);
+    color: white;
+    width: 100px;
+    border-radius: 4px;
+    padding: 3px 0px;
+    cursor: pointer;
+}
+
+.LoginMainDiv button:hover{
+  background-color: rgb(88, 86, 86);
+}
+
+@media screen and (max-width : 700px){
+    .LoginMainDiv{
+        width: 90%;
+    }
+    #SignupDiv{
+        width: 90%;
+    }
+    #SignupDiv form{
+        width: 97%;
+        padding: 30 px 4px;
+    }
+    #SignupDiv form label{
+        width: 90%;
+    }
+    #LoginForm{
+        width: 80%;
+    }
+}
+
+.lastHeading{
+    margin-top: 1%;
+    color: white;
+    font-size: x-large;
+    font-weight: 10px;
+}
+.lastHeading>span{
+    font-size: 40px;
+}
